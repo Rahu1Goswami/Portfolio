@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Goswami</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="start-div">
+            <a href="#home" style="text-decoration: none;">
+                <i class="fa-solid fa-r"></i>
+                <i class="fa-solid fa-g"></i>
+            </a>
+        </div>
+        <div class="middle-div">
+            <nav class="nav_bar">
+                <ul id="ul_nav">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about_me">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact_me">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="end-div">
+            <a href="https://github.com/Rahu1Goswami" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rahul-goswami-33180a27b/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>                          
+        </div>
+        
+    </div>
+    <div class="main-body">
+
+        <div class="home" id="home">
+            <div class="home-container">
+                <div class="sub-home">
+                    <div class="text">
+                        <h1 id="big_name">Hey! I'm Rahul Goswami.</h1>
+                        <p  class="lvl-1-text">I'm a web developer who loves turning ideas into clean, functional, and visually appealing websites. Whether it's building interactive user interfaces or bringing creative designs to life with code, I enjoy the process of crafting digital experiences. I'm always exploring new technologies and improving my skills, one project at a time. </p>
+                        <div class="buttons">
+                            <a href="Files/Resume_Rahul_Goswami.pdf" download class="btn">Download CV</a>
+                            <a href="#contact_me" class="btn">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="developer_image">
+                        <img src="Files/layout/d-0-1.jpg" alt="developer-image" id="developer-image">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="about_me" id="about_me">
+            <div class="about-me-container">
+                <div class="about-me-text">
+                    <h2 class="lvl-1-title">About Me</h2>
+                    <p class="lvl-1-text">
+                        I'm a Computer Science student at JNU, Delhi, with a deep passion for coding and problem-solving. I enjoy the challenge of competitive programming, where I get to sharpen my skills in algorithms and data structures. Programming, for me, is not just about writing code — it's about thinking creatively and solving real-world problems. Outside of coding, I love photo and video compositing, along with 3D modeling and animation. Blending technology with creativity drives me to keep learning, experimenting, and building new things.
+                    </p>
+                </div>
+                <div class="block-items">
+                    <div class="skills rectangular-block">
+                        <h3 class="lvl-2-title">My Skills</h3>
+                        <ul id="skill-list"  class="lvl-2-text">
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>C, C++, Python</li>
+                            <li>Git, GitHub, VS Code</li>
+                            <li>Photoshop, for Photo Composition</li>
+                            <li>After Effects, for Video Composition</li>
+                            <li>Blender, for 3D modelling and Animation</li>
+                        </ul>
+                    </div>
+                    <div class="education rectangular-block">
+                        <h3  class="lvl-2-title">My Education</h3>
+                        <ul id="education-list" class="lvl-2-text">
+                            <li>2023-Current : Pursuing B.Tech in CSE at Jawaharlal Nehru University, New Delhi.</li>
+                            <li>2022-2023 : Pursued JEE coaching at Super 30, Almora, Uttarakhand for one year</li>
+                            <li>2015-2022 : Completed schooling at Jawahar Navodaya Vidyalaya, Tarikhet, Almora, Uttarakhand.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio-container">
+                <h2 class="lvl-1-title" id="to-move">My Work</h2>
+                <div class="projects-list">
+                    <!-- .....Developement Projects...... -->
+                     <div class="proj-container">
+                         <h3 class="lvl-2-title  to-center">Developement Projects</h3>
+                         <div class="project-display-block">
+                             <!-- portfolio project -->
+                              <div class="single-type-container">
+                                  <h4 class="lvl-1-text bullet-pnt to-center">Portfolio Website</h4>
+                                  <div class="developement-projects project-item-t1">
+                                      <div class="left">
+                                         <div class="description">
+                                                 <ul>
+                                                     <li class="lvl-2-text">Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript.</li>
+                                                     <li class="lvl-2-text">Showcases projects, skills, and creative work with a clean and modern layout.</li>
+                                                     <li class="lvl-2-text">Implemented features like image sliders, modal popups, and smooth navigation.</li>
+                                                     <li class="lvl-2-text"><a href="#">Learn More <i class="fa-brands fa-github"></i> </a></li>
+                                                 </ul>
+                                         </div>
+                                      </div>
+                                     <div class="right">
+                                         <div class="slider-wrapper project-swiper">
+                                             <div class="card-list swiper-wrapper">
+                                               <!-- 1st card -->
+                                               <div class="card-item swiper-slide">
+                                                 <img src="Files/devlopement-projects/Portfolio-SS-01.png" alt="Portfolio-website-ss-01" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                 <p class="below-image-text">A clean and engaging introduction to my portfolio, highlighting about me.</p>
+                                               </div>
+                                           
+                                               <!-- 2nd card -->
+                                               <div class="card-item swiper-slide">
+                                                 <img src="Files/devlopement-projects/Portfolio-SS-02.png" alt="Portfolio-website-ss-02" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                 
+                                                 <p class="below-image-text">A detailed overview of my background, skills, and education journey.</p>
+                                               </div>
+                                               
+                                               <!-- 3rd card -->
+                                               <div class="card-item swiper-slide">
+                                                 <img src="Files/devlopement-projects/Portfolio-SS-03.png" alt="Portfolio-website-ss-03" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                 
+                                                 <p class="below-image-text">Showcases the development projects I've worked on, including a slider to navigate through Files.</p>
+                                               </div>
+                                               
+                                               <!-- 2nd card -->
+                                               <div class="card-item swiper-slide">
+                                                 <img src="Files/devlopement-projects/Portfolio-SS-02.5.png" alt="Portfolio-website-ss-02.5" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                 
+                                                 <p class="below-image-text">Highlights my creative side with a gallery of image compositions, with interactive image slider.</p>
+                                               </div>
+         
+                                               <!-- 4th card -->
+                                               <div class="card-item swiper-slide">
+                                                 <img src="Files/devlopement-projects/Portfolio-SS-04.png" alt="Portfolio-website-ss-04" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                 
+                                                 <p class="below-image-text">A Contact me page, with a form that updates submissions directly to a Google Sheet.</p>
+                                               </div>
+                                               
+                    
+                                             </div>
+                                           
+                                             <!-- Navigation buttons (outside swiper-wrapper, inside swiper) -->
+                                             <div class="swiper-button-prev"></div>
+                                             <div class="swiper-button-next"></div>
+                                           
+                                             <!-- Pagination -->
+                                             <div class="swiper-pagination"></div>
+                                         </div>
+         
+                                     </div>
+                                  </div>
+                              </div>
+                             <!-- hotel-manegment -->
+                              
+                             <div class="single-type-container">
+                                <h4 class="lvl-1-text bullet-pnt to-center">Hotel Management System</h4>
+                                <div class="developement-projects project-item-t1">
+                                    <div class="left">
+                                       <div class="description">
+                                        <ul>
+                                            <li class="lvl-2-text">Developed a Comprehensive Hotel Management System with real-time room status updates.</li>
+                                            <li class="lvl-2-text">Receptionists can view live availability of rooms and allot rooms based on customer requirements.</li>
+                                            <li class="lvl-2-text">Room statuses (available, booked, under maintenance, etc.) are automatically updated in the database.</li>
+                                            <li class="lvl-2-text">Used HTML, CSS and JS for web app developement and MYSql for backend database.</li>
+                                            <li class="lvl-2-text"><a href="https://github.com/Rahu1Goswami/HotelManagementSystem"  target="_blank" rel="noopener noreferrer">Learn More <i class="fa-brands fa-github"></i> </a></li>
+                                        </ul>
+                                       </div>
+                                    </div>
+                                   <div class="right">
+                                       <div class="slider-wrapper project-swiper">
+                                           <div class="card-list swiper-wrapper">
+                                             <!-- 1st card -->
+                                             <div class="card-item swiper-slide">
+                                                <img src="Files/devlopement-projects/HM-01.png" alt="HotelManagement-ss-01" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                <p class="below-image-text">Home Page, Gives entire transaction History at a glance. New bookings can be made through 'Add Booking' button.</p>
+                                              </div>
+                                         
+                                             <!-- 2nd card -->
+                                             <div class="card-item swiper-slide">
+                                                <img src="Files/devlopement-projects/HM-02.png" alt="HotelManagement-ss-02" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                
+                                                <p  class="below-image-text">Employee Management Page, Admin can add new Employee or access details of existing ones.</p>
+                                              </div>
+                                             
+                                             <!-- 3rd card -->
+                                             <div class="card-item swiper-slide">
+                                                <img src="Files/devlopement-projects/HM-03.png" alt="HotelManagement-ss-03" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                
+                                                <p  class="below-image-text">After clicking on 'Add Booking' or 'Add Employee' a new page asks for details before verifying it and storing it in the database.</p>
+                                              </div>
+                                             
+                                             <!-- 2nd card -->
+                                             <div class="card-item swiper-slide">
+                                                <img src="Files/devlopement-projects/HM-04.png" alt="HotelManagement-ss-04" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                
+                                                <p class="below-image-text">Room Management Page, shows current status of each room. Status is automatically updated according to check out dates and new bookings.</p>
+                                              </div>
+       
+                                             <!-- 4th card -->
+                                             <div class="card-item swiper-slide">
+                                                <img src="Files/devlopement-projects/HM-05.png" alt="HotelManagement-ss-05" class="image-comp-2 clickable-img" onclick="openImageModal(this.src)">
+                                                
+                                                <p class="below-image-text">Guest Details, Details about all the guests till last Database update can be fetched through this page.</p>
+                                              </div>
+                  
+                                           </div>
+                                         
+                                           <!-- Navigation buttons (outside swiper-wrapper, inside swiper) -->
+                                           <div class="swiper-button-prev"></div>
+                                           <div class="swiper-button-next"></div>
+                                         
+                                           <!-- Pagination -->
+                                           <div class="swiper-pagination"></div>
+                                       </div>
+       
+                                   </div>
+                                </div>
+                            </div>
+    
+                            </div>
+                         </div>
+                     </div>
+                    <!-- ..........Photo Composition........ -->
+                     <div class="proj-container">
+                         <h3 class="lvl-2-title to-center">Photo Compositions</h3>
+                         <div class="slider-wrapper swiper">
+                             <div class="card-list swiper-wrapper">
+                               <!-- 1st card -->
+                               <div class="card-item swiper-slide">
+                                 <img src="Files/photo-comps/Knight dn.jpg" alt="Knight-Traveller" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                 <h3 class="lvl-2-text">Knight Traveller</h3>
+                                 <p>Aug 2022</p>
+                               </div>
+                           
+                               <!-- 2nd card -->
+                               <div class="card-item swiper-slide">
+                                 <img src="Files/photo-comps/benny production july battle_jpeg.jpg" alt="Medieval Warrior" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                 <h3 class="lvl-2-text">Medieval Warrior</h3>
+                                 <p>July 2021</p>
+                               </div>
+                           
+                               <!-- 3rd card -->
+                               <div class="card-item swiper-slide">
+                                 <img src="Files/photo-comps/Gaint bear.jpg" alt="A Giant Bear" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                 <h3 class="lvl-2-text">A Giant Bear</h3>
+                                 <p>May 2021</p>
+                               </div>
+                           
+                               <!-- 4th card -->
+                               <div class="card-item swiper-slide">
+                                 <img src="Files/photo-comps/human torch fire hand with blur.jpg" alt="Human Torch" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                 <h3 class="lvl-2-text">Human Torch</h3>
+                                 <p>Jan 2021</p>
+                               </div>
+                           
+                               <!-- 5th card -->
+                               <div class="card-item swiper-slide">
+                                 <img src="Files/photo-comps/PUBG pose small sized jpeg.jpg" alt="Game Character" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                 <h3 class="lvl-2-text">Game Character</h3>
+                                 <p>Jan 2021</p>
+                               </div>
+                               
+    
+                             </div>
+                           
+                             <!-- Navigation buttons (outside swiper-wrapper, inside swiper) -->
+                             <div class="swiper-button-prev"></div>
+                             <div class="swiper-button-next"></div>
+                           
+                             <!-- Pagination -->
+                             <div class="swiper-pagination"></div>
+                         </div>
+                     </div>
+                      
+                    <!-- .....video comp.... -->
+                     <div class="proj-container">
+                        <h3 class="lvl-2-title to-center">Video Compositions and 3D Assets</h3>
+                        <div class="slider-wrapper swiper">
+                            <div class="card-list swiper-wrapper">
+                              <!-- head-explosion -->
+                                <div class="card-item swiper-slide">
+                                    <div class="video-thumbnail-wrapper">
+                                        <video class="video-comp" src="Files/video-comp/head-explosion/head_explosion - Trim.mp4" muted poster="Files/video-comp/head-explosion/head-explosion-thumbnail.png" id="to-blur">
+                                        </video>
+                                        <div class="play-button">&#9658;</div> <!-- Unicode ▶ symbol -->
+                                    </div>
+                                        <h3 class="lvl-2-text">Head Explosion</h3><p>(Contains fake blood!)</p>
+                                        <p>March 2021</p>
+                                </div>
+    
+                                <!-- suzanne -->
+                                <div class="card-item swiper-slide">
+                                    <div class="video-thumbnail-wrapper">
+                                        <video class="video-comp" src="Files/video-comp/suzanne-track/suzanne-track.mp4" poster="Files/video-comp/suzanne-track/suzanne-track-thumbnail.png" muted>
+                                        </video>
+                                        <div class="play-button">&#9658;</div> <!-- Unicode ▶ symbol -->
+                                    </div>
+                                        <h3 class="lvl-2-text">Suzanne Head</h3><p>Camera tracking</p>
+                                        <p>Jan 2021</p>
+                                </div>
+    
+                                <!-- heat-vision -->
+                                <div class="card-item swiper-slide">
+                                    <div class="video-thumbnail-wrapper">
+                                        <video class="video-comp" src="Files/video-comp/heat-vision/heat-vision.mp4" poster="Files/video-comp/heat-vision/heat-vision-thumbnail.png" muted>
+                                        </video>
+                                        <div class="play-button">&#9658;</div> <!-- Unicode ▶ symbol -->
+                                    </div>
+                                        <h3 class="lvl-2-text">Heat Vision</h3><p>After effects composition</p>
+                                        <p>Jan 2021</p>
+                                </div>
+                                
+                                <!--police-car -01 -->
+                                <div class="card-item swiper-slide">
+                                    <img src="Files/video-comp/low-poly-car/police car jpeg-1.jpg" alt="Low Poly Police Car - 01" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                    <h3 class="lvl-2-text">Low Poly Police Car1</h3> <p>Front</p>
+                                    <p>July 2020</p>
+                                </div>
+                                  <!--police-car -02 -->
+                                <div class="card-item swiper-slide">
+                                    <img src="Files/video-comp/low-poly-car/police car jpeg-2.jpg" alt="Low Poly Police Car - 02" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                    <h3 class="lvl-2-text">Low Poly Police Car</h3> <p>Back</p>
+                                    <p>July 2020</p>
+                                </div>
+    
+                                <!--red-car -->
+                                <div class="card-item swiper-slide">
+                                    <img src="Files/video-comp/low-poly-car/red-Car (may.2020).png" alt="Low Poly Car" class="image-comp clickable-img" onclick="openImageModal(this.src)">
+                                    <h3 class="lvl-2-text">Low Poly Car</h3>
+                                    <p>June 2020</p>
+                                  </div>
+    
+                                <!-- skydancer-->
+                                <div class="card-item swiper-slide">
+                                    <div class="video-thumbnail-wrapper">
+                                        <video class="video-comp" src="Files/video-comp/skydancer/skydancer(21.june.2020).mp4" muted poster="Files/video-comp/skydancer/skydancer-thumbnail.png">
+                                        </video>
+                                        <div class="play-button">&#9658;</div> <!-- Unicode ▶ symbol -->
+                                    </div>
+                                        <h3 class="lvl-2-text">Skydancer</h3><p>Testing with cloth simulation</p>
+                                        <p>June 2020</p>
+                                </div>                         
+                          
+                              
+                            </div>
+                          
+                            <!-- Navigation buttons (outside swiper-wrapper, inside swiper) -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          
+                            <!-- Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- video Modal Popup (hidden initially) -->
+                        <div id="videoModal" class="modal">
+                            <div class="modal-content">
+                            <span class="close-button">&times;</span>
+                            <video id="modalVideo" controls></video>
+                            </div>
+                        </div>
+                        <!-- image modal -->
+                        <div id="imageModal" class="modal">
+                            <span class="close-button" id="imageModalClose">&times;</span>
+                            <img id="modalImage" class="modal-content" alt="Enlarged Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contact" id="contact_me">
+            <div class="contact-container">
+                <h2  class="lvl-1-title">Contact Me</h2>
+                <div class="contact-items">
+                    <div class="contact-left">
+                        <p class="lvl-2-text"><i class="fa-solid fa-paper-plane"></i><br>contact@example.com</p>
+                        <p class="lvl-2-text"><i class="fa-solid fa-square-phone"></i><br>8923319726</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/people/Rahul-Goswami/pfbid02XMUMaf3gpcn72yVnLDFcS2xcQSwMpr8w8qR8aucAb2Y1c1rkeLfPvLnLokd7k1kSl/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/rahulgoswami_12" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter-square" ></i></a>
+                            <a href="https://www.instagram.com/rahulgoswami_12/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/rahul-goswami-33180a27b/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Yout Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f6c9c18e66.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwBWpyHEb4OtPyabXAWCHRXu90UXlbJK71okTrhSkNkzWYvAWurC9gTkQjalr12UwDB/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function() {
+                    msg.innerHTML = "";
+                }, 3000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
