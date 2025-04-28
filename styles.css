@@ -520,6 +520,7 @@ body {
 /* ....image modal..... */
 
 #imageModal {
+
     display: none; /* Hidden by default */
     position: fixed;
     z-index: 1000;
@@ -552,40 +553,7 @@ body {
 
 
   
-  .modal-image-container {
-    position: relative; /* Key: makes close button relative to this container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#modalImage {
-    margin: 0 auto;
-    display: block;
-    max-width: 90%;
-    max-height: 80vh;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    border-radius: 10px;
-}
-
-.modal-image-container .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 10;
-    color: #f6f9e2;
-    font-size: 30px;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 0.3rem 0.8rem;
-    border-radius: 50%;
-    cursor: pointer;
-    user-select: none;
-}
-
+  
   
 
 
