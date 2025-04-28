@@ -8,6 +8,7 @@ body {
     height: 100%;
     width: 100%;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -484,7 +485,7 @@ body {
     width: 80%;
     max-width: 800px; /* Limit width */
     background-color: #111;
-   border-radius: 10px;
+    border-radius: 10px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -496,16 +497,16 @@ body {
     width: 100%;
     height: auto;
     max-width: 100%; /* Video will not go wider than modal */
-    max-height: 80vh; /* vh = viewport height, so max 80% of screen height */
+    max-height: 100%; /* vh = viewport height, so max 80% of screen height */
     border-radius: 10px;
   }
   
   /* Close Button */
   .close-button {
-    position: absolute;
+        position: absolute;
         top: 10px;
         right: 20px;
-        z-index: 10; /* Very important! Keep it on top */
+        z-index: 1020; /* Very important! Keep it on top */
         color: #f6f9e2;
         font-size: 30px;
         font-weight: bold;
@@ -522,7 +523,7 @@ body {
     display: none; /* Hidden by default */
     position: fixed;
     z-index: 1000;
-    padding-top: 60px;
+    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
@@ -531,24 +532,13 @@ body {
     background-color: rgba(00,0,0.8); /* Dark background */
   }
   
-  /* Centered image inside modal */
-  #modalImage {
-    margin: auto;
-    display: block;
-    max-width: 90%;
-    max-height: 80vh;
-    width: auto;
-    height: auto;
-    object-fit: contain; /* KEY */
-    border-radius: 10px;
-  }
   
   /* Close button style (reuse your previous .close-button if you want) */
   #imageModal .close-button {
     position: absolute;
-    top: 10px;
+    top: 40px;
     right: 20px;
-    z-index: 1001;
+    z-index: 1020;
     color: #f6f9e2;
     font-size: 30px;
     font-weight: bold;
@@ -558,6 +548,44 @@ body {
     cursor: pointer;
     user-select: none;
   }
+
+
+
+  
+  .modal-image-container {
+    position: relative; /* Key: makes close button relative to this container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#modalImage {
+    margin: 0 auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.modal-image-container .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    color: #f6f9e2;
+    font-size: 30px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0.3rem 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
   
 
 
